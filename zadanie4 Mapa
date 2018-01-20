@@ -1,0 +1,46 @@
+
+package zadanie4;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Zadanie4 {
+    public static void main(String[] args) {
+        Map<String, Person> Person = new HashMap<>();
+
+
+        Person Ania = new Person("Ania", "Kowalska", "83111402185" );
+        Person Basia = new Person("Basia", "Nowak", "83111402856");
+        Person Tomek = new Person("Tomek", "Kowalski", "83111401875");
+        Person Zosia = new Person("Zosia", "Zosinska", "83111402183");
+
+
+        public class personMap<K,V> implements personMap<K, V> {
+            Map<String, Person> personMap = new HashMap<String, Person>();
+            Map personMap = new HashMap();
+
+            private ArrayList<K> keys;
+            private ArrayList<V> values;
+
+
+            public V put (K, "Ania");
+
+        Map.put("Ania");
+        Map.put("Basia");
+        Map.add("Tomek");
+        Map.add("Zosia");
+        }
+
+
+
+        List<String> lista = new ArrayList<>();
+
+
+
+
+
+
+    }
+}
