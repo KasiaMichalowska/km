@@ -1,0 +1,30 @@
+# km
+
+zadanie3
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class Main {
+
+
+    public static void main(String[] args) {
+        List<String> lista = new ArrayList<>();
+        lista.add("a");
+        lista.add("a");
+
+        List<String> listaBezduplikatow = distinct(lista);
+        System.out.println(listaBezduplikatow);
+
+    }
+    private static List<String> distinct(List<String> lista) {
+        List<String> bezDuplikatow = new ArrayList<>();
+
+        Set<String> set = new HashSet<>(lista);
+        bezDuplikatow.addAll(set);
+
+        return bezDuplikatow;
+    }
+}
